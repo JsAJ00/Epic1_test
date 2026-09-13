@@ -84,15 +84,15 @@ int main(){
 
     //Виведння розрахунків
     cout << "\n";
-    cout << "Модель:"                              << model                 << endl;
-    cout << "Паспортна ємність:"<< setprecision(1) << C        << " Вт/год" << endl;
-    cout << "Вік станції:"                         << years    << " p."     << endl;
-    cout << "Фактична ємність:" << setprecision(1) << C_eff    << " Вт/год" << endl;
-    cout << "Рівень заряду:"                       << charge   << " %"      << endl;
-    cout << "ККД інвертора:"    << setprecision(2) << eff      << " %"      << endl;
-    cout << "Запас енергії:"    << setprecision(1) << E_stored << " %"      << endl;
-    cout << "корисна енергія:"  << setprecision(1) << E_useful << " %"      << endl;
-    cout << "втрати:"           << setprecision(1) << E_loss   << " %"      << endl;
+    cout << left << setw(34) << "Модель:"                              << model                 << endl;
+    cout << left << setw(40) << "Паспортна ємність:"<< setprecision(1) << C        << " Вт/год" << endl;
+    cout << left << setw(39) << "Вік станції:"                         << years    << " p."     << endl;
+    cout << left << setw(40) << "Фактична ємність:" << setprecision(1) << C_eff    << " Вт/год" << endl;
+    cout << left << setw(40) << "Рівень заряду:"                       << charge   << " %"      << endl;
+    cout << left << setw(40) << "ККД інвертора:"    << setprecision(2) << eff      << " %"      << endl;
+    cout << left << setw(40) << "Запас енергії:"    << setprecision(1) << E_stored << " %"      << endl;
+    cout << left << setw(40) << "корисна енергія:"  << setprecision(1) << E_useful << " %"      << endl;
+    cout << left << setw(34) << "втрати:"           << setprecision(1) << E_loss   << " %"      << endl;
 
     return 0;
 }
